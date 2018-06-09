@@ -1,0 +1,29 @@
+{
+	"name": "ngx-scaffold",
+	"version": "0.1.0",
+	"description": "Scaffolding for Angular",
+	"bin": {
+		"ng-scaffold": "./cli.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "tsc && node dist/index.js",
+		"build": "tsc"
+	},
+	"keywords": [
+		"Angular",
+		"Scaffold"
+	],
+	"author": "Jordan Castillo",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "10.3.2",
+		"mocha": "^5.2.0",
+		"tslint": "5.10.0",
+		"typescript": "2.9.1"
+	},
+	"dependencies": {
+		"@types/command-line-args": "^5.0.0",
+		"command-line-args": "^5.0.2"
+	}
+}
